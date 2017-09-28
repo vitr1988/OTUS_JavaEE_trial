@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+</head>
+<body>
+	<form method="post" action="j_security_check" name="loginForm" id="loginForm" autocomplete="Off" >
+      <div>
+          <div>
+              <label for="j_username">Логин:</label>
+              <input name="j_username" maxlength="50" type="text" id="username"/>
+          </div>
+          <div>
+              <label for="j_password">Пароль:</label>
+              <input name="j_password" maxlength="50" type="password" id="j_password"/>
+          </div>
+      </div>
+      <div class="submit">
+          <input type="submit" value="Войти"/>
+      </div>
+  </form>
+</body>
+</html>
